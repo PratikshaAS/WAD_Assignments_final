@@ -1,0 +1,11 @@
+body{
+    background-image: linear-gradient(to right,rgb(24, 24, 24) , rgb(119, 117, 119));
+}
+form{
+
+    display: block;
+    
+    background-color: rgba(225, 212, 245, 0.664);
+    margin: 1% 25% ;
+    padding: 2% 8% ;
+}

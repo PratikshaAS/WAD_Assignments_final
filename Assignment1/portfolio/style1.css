@@ -1,0 +1,85 @@
+span{
+    color: crimson;
+}
+
+body{
+    /* background-color: black; For few browsers */
+    background-image: linear-gradient(to right,rgb(24, 24, 24) , rgb(119, 117, 119));
+}
+p{
+    color: white;
+}
+/* -----------------------Header CSS------------------------- */
+
+
+#header a{
+    padding-right: 8%;
+    color: white;
+}
+
+#header h2{
+    padding-left: 7%;
+    color: white;
+    display: inline;
+    padding-right: 50%;
+}
+
+
+/* -------------------------End of Header CSS-------------------------------- */
+
+/* -------------------------Home CSS------------------------- */
+#home .homecontainer{
+    padding-left: 70px;
+}
+
+#home h1 {
+    color: white;
+    padding-left: 0;
+    font-size: 50px;
+}
+
+#home button{
+    font-size: 20px;
+    padding: 10px 40px;
+}
+
+#home button:hover{
+    background-color: rgb(253, 166, 202);
+}
+/* ------------------------End of home CSS--------------------------------- */
+
+/* ------------------------Skills CSS-------------------------------- */
+#skills{
+    margin-bottom: 100px;
+}
+
+.statistics{
+    padding: 5%;
+    margin: 5%;
+}
+/* --------------------------End of Skills CSS---------------------------------------- */
+
+/* --------------------------Projects CSS--------------------------------- */
+
+#projects{
+    margin: 30px;
+}
+
+#projects .img-responsive{
+    margin:auto;
+    width: 100%;
+}
+
+
+/* #projects h1{
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+} */
+
+/* --------------------------------------------------------------- */
+
+.contact:hover{
+    cursor: pointer;
+}

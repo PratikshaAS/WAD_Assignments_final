@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <title>JQuery Mobile</title>
+  </head>
+  <body>
+    <div data-role="page" id="page1" data-theme="b" style="background-color:grey">
+      <div data-role="header">
+        <h3>Form</h3>
+      </div>
+      <br />
+      <br />
+
+      <div role="main" class="ui-content">
+        <h3 style="text-align: center;"> Student Form</h3>
+
+        <label for="text-basic">Name </label>
+        <input type="text" name="name" id="text-basic" value="" />
+
+        <label for="text-basic">Roll No </label>
+        <input type="number" name="roll" id="text-basic" value="" />
+
+        <label for="text-basic">Department </label>
+        <input type="text" name="department" id="text-basic" value="" />
+
+        <label for="text-basic">College </label>
+        <input type="text" name="college" id="text-basic" value="" />
+      </div>
+
+      <br />
+      <br />
+
+      <div data-role="footer">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="#page1" data-icon="grid" class="ui-btn-active">Form</a></li>
+                <li><a href="#page2" data-icon="star" >Websites</a></li>                
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div data-role="page" id="page2" data-theme="b" style="background-color: grey">
+      <div data-role="header">
+        <h1>Websites</h1>
+      </div>
+
+      <br />
+      <br />
+
+      <div role="main" class="ui-content">
+        <h3 style="text-align: center;">Sports Web Sites</h3>
+        <ul data-role="listview">
+          <li>
+            <a href="https://www.sportingnews.com/in/nba?gr=www" target="_blank">NBA</a>
+          </li>
+          <li>
+            <a href="https://www.uefa.com/uefachampionsleague/" target="_blank">UCL</a>
+          </li>
+          <li>
+            <a href="https://www.formula1.com/" target="_blank">F1</a>
+          </li>
+        </ul>
+        <br />
+      <br />
+      <br />
+
+      <div data-role="footer">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="#page1" data-icon="grid">Form</a></li>
+                <li><a href="#page2" data-icon="star" class="ui-btn-active">Websites</a></li>                
+            </ul>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

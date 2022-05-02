@@ -1,0 +1,17 @@
+{
+    "skills":
+    [
+        {
+            "title": "Procedural",
+            "subtitle": "C programming"
+        },
+        {
+            "title": "Object-Oriented",
+            "subtitle": "C++ programming"
+        },
+        {
+            "title": "Virtual Machine Based",
+            "subtitle": "Java, Python"
+        }
+    ]
+}
